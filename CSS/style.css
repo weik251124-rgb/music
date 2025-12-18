@@ -1,0 +1,150 @@
+/* body */
+body {
+    background-color: #fff9de;
+    margin: 0;
+}
+
+/* 網站標題 */
+h1 {
+    color: #6b3008;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.mainvisual {
+    background-color: #62D5E8;
+    border-bottom: solid 3px #000000;
+}
+
+.mainvisual img {
+    max-width: 100%;
+    /* 最大寬度=100% 用在想要只在寬度過小時縮小圖片時 */
+    height:auto;
+    /* 高度隨寬度自動調整 */
+    display: block;
+    margin: 0 auto;
+}
+
+.navigation{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navigation ul {
+    background-color: #000000;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+
+.navigation ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    color: #62d5e8;
+    text-decoration: underline;
+}
+
+/* 標題 */
+h2 {
+    text-align: center;
+}
+
+h3 {
+    border-left: solid #6b3008 6px;
+    padding-left: 6px;
+}
+
+/* 個人簡介 */
+
+/* 變更簡介的背景色和文字顏色 */
+#profile {
+    /* max-width: 600px; */
+    /* margin: 0 auto; */
+    background-color: #6b3008;
+    color: #ffffff;
+}
+
+/* 設定內容寬度的上限 */
+#profile .inner{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#concert{
+    max-width: 600px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+section {
+    margin: 48px 0;
+}
+
+.performer {
+    margin: 0 0 24px;
+    overflow: hidden;
+}
+
+.performer img {
+    float: left;
+    margin: 0 16px 0 0;
+}
+
+.performer h4 {
+    margin: 0 0 0.5em;
+}
+
+.performer p {
+    margin: 0;
+}
+
+table {
+    /* border-collapse: collapse; */
+    /* border-collapse: separate; */
+    border-spacing: 10px;
+    width: 100%;
+}
+
+th,
+td {
+    border: solid 1px #999999;
+    padding: 16px;
+}
+
+/* article */
+article {
+    padding: 32px 16px;
+}
+
+th {
+    background-color: #dbcfb3;
+}
+
+ol li {
+    list-style-type: upper-roman;
+}
+
+/* 頁尾 */
+
+/* 回到開頭 */
+.pagetop {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+}
+
+/* 版權宣告 */
+.copyright {
+    border-top: solid 3px #000;
+    text-align: center;
+}
